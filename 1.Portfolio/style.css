@@ -1,0 +1,172 @@
+
+
+body, img, p, li, ul, h2, span {
+    padding: 0px;
+    margin: 0px
+}
+
+img {
+    background-image: green;
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+p, li, h1, h2, span, i {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: var(--text-color);
+}
+
+.titulo{
+    font-size: 700;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 450px 30px 1fr;
+    background-color: var(--body-bg-color);
+}
+.grid-section {
+    grid-column: 1 / 2;
+    margin: 30px;
+}
+
+.projects-section{
+    grid-column:  2 / 4;
+    margin: 30px;
+}
+
+.icon {
+    margin-top: 30px;
+    padding: 50px;
+    background-color: var(--bg-cards);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sociais {
+    background-color: var(--bg-cards);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+
+.shadow{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.tecnologias {
+    background-color: var(--bg-cards);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 10px;
+    margin: auto;
+}
+
+.linguagens {
+    display: flex;
+}
+
+.meu-projeto {
+    background-color: var(--bg-cards);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.meu-projeto p {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+;
+}
+
+p{
+    font-size: 400;
+}
+ul li{
+    margin: 20px;
+    font-size: 400;
+}
+
+span{
+    margin-left: 20px;
+}
+
+.btn{
+    border-radius: 15px;
+    background-color: var(--bg-techs);
+    padding: 6px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo-tec{
+    margin-left: 20px;
+}
+.card-projetos{
+    background-color: var(--bg-cards);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.projetos-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.recent-posts {
+    background-color: var(--bg-cards);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.post {
+    background-color: var(--bg-cards);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile{
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 100px;
+    border: 3px solid var(--text-color);
+}
+
+.info-post{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.sql{
+    grid-column: 1/2;
+}
+
+.cinema{
+    grid-column: 2/3;
+}
