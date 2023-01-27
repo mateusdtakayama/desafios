@@ -16,7 +16,7 @@ img {
     --bg-techs: #CB92B1;
 }
 
-p, li, h1, h2, span, i {
+p, li, h1, h2, span, i,a {
     font-family: 'Merriweather Sans', sans-serif;
     color: var(--text-color);
 }
@@ -169,4 +169,8 @@ span{
 
 .cinema{
     grid-column: 2/3;
+}
+
+a{
+    text-decoration: none;
 }
