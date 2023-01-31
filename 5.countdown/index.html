@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="container-grid">
+        <div class="top-image">
+            <img src="./images/top-image.svg">
+        </div>
+        <div class="countdown-container center">
+                <span class="title">READY TO LAUNCH IN...</span>
+            <div class="container-titles" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; margin-left: 60px; margin-right: 50px;">
+                <span class="time-title">Dias</span>
+                <span class="time-title">Horas</span>
+                <span class="time-title">Minutos</span>
+                <span class="time-title">Segundos</span>
+            </div>
+            <div class="container-numbers">
+                <span id="days" class="number-title">08</span>
+                <span class="number-title">:</span>
+                <span id="hours" class="number-title">12</span>
+                <span class="number-title">:</span>
+                <span id="minutes" class="number-title">44</span>
+                <span class="number-title">:</span>
+                <span id="seconds" class="number-title">28</span>
+            </div>
+            <span class="subscribe">Inscreva-se para saber mais sobre o lançamento</span>
+            <div class="btn">
+                <span>Inscreva-se</span>
+            </div>
+        </div>
+        <div class="container-rocket">
+            <img src="./images/rocket.svg">
+        </div>
+        <div class="bottom-image">
+            <img src="./images/bottom-image.svg">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
